@@ -186,18 +186,25 @@ header .navbar ul li a:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
-  background-color: #C5C5C5;
+  /* background-color: #C5C5C5; */
+
+  background: linear-gradient(rgba(0, 0, 0, 0.442),rgba(0, 0, 0, 0.47)),url(../images/educat/bg.jpg);
+    background-position: center;
+    background-size:cover;
+    max-height: max-content;
+    max-width: 100%;
   
 }
+
 #home1 {
   height: 100vh; /* Full viewport height */
-    background-image: url('path/to/your-image.jpg'); /* Replace with your background image path */
+    /* background-image: url('./images/educat/bg.jpg'); Replace with your background image path */
     background-size: cover; /* Make sure the image covers the section */
     background-position: center; /* Center the image */
     position: relative; /* Necessary for content positioning */
     color: white; /* Text color */
     display: flex; /* Flexbox for centering content */
-    align-items: center; /* Vertically center the content */
+    align-items:center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
     text-align: center; /* Center the text */
 }
@@ -238,7 +245,7 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #efeff0;
 }
 .home .content h2 span {
   font-size: 5rem;
@@ -247,7 +254,7 @@ header .navbar ul li a:hover {
 }
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: #f5f2f2;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -361,13 +368,14 @@ header .navbar ul li a:hover {
 /* about section starts */
 .about {
   background: rgb(255, 255, 255);
+  
 }
 .about .row {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
-  padding: 4rem;
+  padding: 3rem;
 }
 .about .row .image {
   text-align: center;
@@ -377,9 +385,9 @@ header .navbar ul li a:hover {
   margin: 4rem;
   width: 30rem;
   height: auto;
-  border-radius: 5%;
+  border-radius: 10%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   transition: 0.3s;
   cursor: pointer;
 }
